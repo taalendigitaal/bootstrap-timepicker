@@ -1,13 +1,19 @@
 {
-	"name"        : "jdewit/bootstrap-timepicker",
-	"description" : "A simple timepicker component for Twitter Bootstrap.",
-	"version"     : "0.2.5",
-	"license"     : "MIT",
-	"authors": [
-		{
-	    "name" : "Joris de Wit",
-	    "email" : "joris.w.dewit@gmail.com"
-		}
-	]
-
+    "name": "taalendigitaal/bootstrap-timepicker",
+    "description": "Bootstrap Timepicker",
+    "type": "component",
+    "require": {
+        "robloach/component-installer": "*"
+    },
+    "extra": {
+        "component": {
+            "scripts": [
+                "js/bootstrap-timepicker.js"
+            ],
+            "files": [
+                "js/bootstrap-timepicker.js",
+                "css/bootstrap-timepicker.css"
+            ]
+        }
+    }
 }
